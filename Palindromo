@@ -1,0 +1,15 @@
+#palindromo
+
+palabra1 = 'car'
+
+palabra2 = 'arc'
+
+palabra1 = sorted(list(palabra1))
+
+palabra2 = sorted(list(palabra2))
+
+if palabra1 == palabra2:
+
+	print('palindromo')
+else:
+	prinnt('no es palindromo')
