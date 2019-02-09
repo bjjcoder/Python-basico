@@ -1,0 +1,42 @@
+# Suma
+def add(x, y):
+   return x + y
+
+# Resta
+def subtract(x, y):
+   return x - y
+
+# Multiplicacion 
+def multiply(x, y):
+   return x * y
+
+# Division
+def divide(x, y):
+   return x / y
+#Menu
+
+print("Seleccione operacion.")
+print("1.Suma")
+print("2.Resta")
+print("3.Multiplicacion")
+print("4.Division")
+
+# Input del usuario
+opcion = input("Opcion(1/2/3/4):")
+
+num1 = int(input("Digite primer numero: "))
+num2 = int(input("Digite segundo numero: "))
+
+if opcion == '1':
+   print(num1,"+",num2,"=", add(num1,num2))
+
+elif opcion == '2':
+   print(num1,"-",num2,"=", subtract(num1,num2))
+
+elif opcion == '3':
+   print(num1,"*",num2,"=", multiply(num1,num2))
+
+elif opcion == '4':
+   print(num1,"/",num2,"=", divide(num1,num2))
+else:
+   print("Numero  invalido")
