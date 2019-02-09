@@ -1,0 +1,28 @@
+#Escriba un programa que permita crear una lista de palabras. Para ello, el programa tiene que pedir un número y luego solicitar ese número de palabras para crear la lista. Por último, el programa tiene que escribir la lista.
+
+i = 0
+x = int(input("De cuantos nombres sera la lista?", int))
+lista = []
+while i < x:
+    for i in lista:
+        lista.append('Digite nombre')
+    else
+        print("no valido")
+#Escriba un programa que permita crear una lista de palabras y que, a continuación, pida una palabra y diga cuántas veces aparece esa palabra en la lista.
+
+print("digite nombre para saber cuantas veces aparece  el nombre en la lista")
+
+input(x)
+
+lista.count(x)
+
+#Escriba un programa que permita crear una lista de palabras y que, a continuación, pida dos palabras y sustituya la primera por la segunda en la lista.
+input(x,  i)
+lista.insert(i, x)
+
+#Escriba un programa que permita crear una lista de palabras y que, a continuación, pida una palabra y elimine esa palabra de la lista.
+
+input(x)
+
+lista.remove(x)
+
